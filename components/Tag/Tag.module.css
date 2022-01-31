@@ -1,0 +1,30 @@
+.tag {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.white {
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--gray-light);
+  font-weight: 500;
+}
+
+.green {
+  background-color: var(--green-light);
+  color: var(--green);
+  font-weight: 600;
+}
+
+.purple {
+  background-color: var(--white);
+  color: var(--primary);
+  font-weight: 500;
+  border: 1px solid var(--primary);
+}
+
+.url {
+  cursor: pointer;
+}
